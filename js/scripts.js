@@ -207,8 +207,8 @@ $(document).ready(function () {
     $('#add-to-cal').html(myCalendar);
 
 
-    /********************** RSVP **********************/
-    $('#rsvp-form').on('submit', function (e) {
+    /********************** contact **********************/
+    $('#contact-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
 
@@ -225,7 +225,7 @@ $(document).ready(function () {
                         $('#alert-wrapper').html(alert_markup('danger', data.message));
                     } else {
                         $('#alert-wrapper').html('');
-                        $('#rsvp-modal').modal('show');
+                        $('#contact-modal').modal('show');
                     }
                 })
                 .fail(function (data) {

@@ -226,7 +226,7 @@
         padding: 0 20px;
     }
     
-    #eng-pics .img-wrap {
+    #portfolio .img-wrap {
         border-radius: 0;
     }
 
@@ -239,7 +239,7 @@
         padding: 35px;
     }
 
-    .rsvp {
+    .contact {
         padding-top: 40px;
     }
 
@@ -257,7 +257,7 @@
         padding-top: 100%;
     }
 
-    #eng-pics .img-wrap i {
+    #portfolio .img-wrap i {
         font-size: 25px;
         position: absolute;
         width: 25px;
@@ -360,7 +360,7 @@
         padding-top: 130%;
     }
 
-    .rsvp {
+    .contact {
         padding-top: 20px;
     }
 }

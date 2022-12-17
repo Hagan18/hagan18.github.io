@@ -259,7 +259,7 @@ Hero
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
+  /*.contact-btn {
     position: absolute;
     bottom: 100px;
     left: 50%;
@@ -656,7 +656,7 @@ Instagram
 /* ==========================================================================
 Engagement Pics
 ========================================================================== */
-#eng-pics {
+#portfolio {
   img {
     width: 100%;
     height: auto;
@@ -785,12 +785,12 @@ Google map
 }
 
 /* ==========================================================================
-RSVP form
+contact form
 ========================================================================== */
-.rsvp {
+.contact {
   padding-bottom: 140px;
-  .rsvp-form {
-    .rsvp-btn {
+  .contact-form {
+    .contact-btn {
       padding: 15px 0;
       border-radius: 3px;
       width: 100%;
